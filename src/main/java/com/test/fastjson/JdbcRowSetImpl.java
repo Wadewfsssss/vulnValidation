@@ -9,6 +9,7 @@ import com.alibaba.fastjson.JSON;
  *
  * 先通过java.lang.Class把com.sun.rowset.JdbcRowSetImpl加载进fastjson缓存
  * checkAutoType方法的缺陷（先通过缓存查询，有则立马返回，JdbcRowSetImpl否则检查黑名单hash）绕过黑名单和autoType的检查
+ * @Author:Wadewfsssss
  */
 
 public class JdbcRowSetImpl {

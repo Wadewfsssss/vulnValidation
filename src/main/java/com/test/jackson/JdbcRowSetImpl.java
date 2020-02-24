@@ -2,6 +2,10 @@ package com.test.jackson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+/**
+ * @Author:Wadewfsssss
+ */
+
 public class JdbcRowSetImpl {
 
     public static void main(String[] args) {

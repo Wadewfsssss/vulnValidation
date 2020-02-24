@@ -7,6 +7,10 @@ import sun.misc.BASE64Encoder;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * @Author:Wadewfsssss
+ */
+
 public class TemplatesImpl {
 
     public static void main(String[] args) throws IOException {

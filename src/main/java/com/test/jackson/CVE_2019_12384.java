@@ -7,6 +7,7 @@ import java.io.IOException;
 /**
  * CVE-2019-12384
  * jackson-databind RCE
+ * @Author:Wadewfsssss
  */
 
 public class CVE_2019_12384 {

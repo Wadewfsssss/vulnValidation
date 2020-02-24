@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * CVE-2019-14379
  * jackson-databind RCE < 2.9.9.2
  * 依赖：net.sf.ehcache
+ * @Author:Wadewfsssss
  */
 
 public class CVE_2019_14379 {

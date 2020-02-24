@@ -7,6 +7,7 @@ import com.alibaba.fastjson.parser.ParserConfig;
  *
  *fastjson <= 1.2.59 RCE，需要开启AutoType
  *高版本JEP290后需开启：System.setProperty("com.sun.jndi.rmi.object.trustURLCodebase", "true");
+ * @Author:Wadewfsssss
  */
 
 public class HikariCP {

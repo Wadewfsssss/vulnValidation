@@ -8,6 +8,7 @@ import java.io.IOException;
  * CVE-2020-8840
  * jackson-databind <= 2.10.2 RCE，需要开启DefaultType
  * 依赖：XBean-reflect
+ * @Author:Wadewfsssss
  */
 
 public class CVE_2020_8840 {

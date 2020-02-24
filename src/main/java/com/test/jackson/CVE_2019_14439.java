@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * logback jndi rce jackson < 2.9.9.2
  *
  * CVE-2019-14439
- *
+ * @Author:Wadewfsssss
  */
 
 public class CVE_2019_14439 {
