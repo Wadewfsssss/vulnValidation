@@ -9,5 +9,8 @@
         <module name="vulnValidation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vulnValidation" target="6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
